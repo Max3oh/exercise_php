@@ -1,0 +1,129 @@
+.head
+{
+	display: none;
+}
+
+.logo
+{
+	float: left;
+	display: block;
+	
+}
+
+.print h3
+{
+	font-size: 2em;
+	text-align: right;
+	
+}
+
+.print
+{
+	font-size: 0.5em;
+	display: block;
+	text-align: right;
+	float: center;
+	
+}
+
+.table_u
+{
+	text-align: center;
+	float: middle;
+	font-size: 1.3em;
+	color: black;
+}
+.menu
+{
+	display: block;
+	display: none;
+}
+
+
+.erg table{
+	background-color: grey;
+	width: 80%;
+	height: 30;
+	float: middle;
+	border-style: thick;
+	border-color: white;
+	margin-top: 0.5em;
+	
+}
+
+#till table{
+	background-color: grey;
+	width: 100%;
+	height: 30;
+	float: middle;
+	border-style: thick;
+	border-color: white;
+	margin-top: 0.5em;
+	text-align: right;
+	
+}
+
+#faell table{
+	background-color: grey;
+	width: 100%;
+	height: 30;
+	float: middle;
+	border-style: thick;
+	border-color: white;
+	margin-top: 0.5em;
+	text-align: right;
+	
+}
+
+.erg tr b{
+	font-size: 1em;
+	height: 30;	
+}
+
+#till tr b{
+	font-size: 1em;
+	height: 30;	
+}
+
+#faell tr b{
+	font-size: 1em;
+	height: 30;	
+}
+
+#till tr td{
+	font-size: 0.5em;
+	width: 14.286%;
+	height: 30;
+	background-color: lightgrey;
+}
+
+#faell tr td{
+	font-size: 0.5em;
+	width: 20%;
+	height: 30;
+	background-color: lightgrey;
+}
+
+.erg tr td{
+	font-size: 0.5em;
+	width: 11.2429%;
+	height: 29;
+	background-color: lightgrey;
+}
+
+.erg p{
+	font-size:1em;
+	margin-right: 15em;
+	float: middle;
+}
+
+.erg #till p{
+	font-size:1em;
+	margin-right: 0em;
+	float: middle;
+}
+
+.drucken 
+{
+	display: none;
+}

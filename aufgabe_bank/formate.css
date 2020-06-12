@@ -1,0 +1,140 @@
+#rate{
+	display: none;
+}
+#zeitr{
+	display: none;
+}
+
+.logo
+{
+	display: none;
+}
+
+.print
+{
+	display: none;
+}
+
+.table_u
+{
+	text-align: center;
+	float: middle;
+	font-size: 1.5em;
+}
+
+
+.head h1 {
+	position: auto; 
+	top: -3px; 
+	left: -3px; 
+	text-shadow: 
+    1px 1px blue, 
+    2px 2px blue, 
+    3px 3px blue, 
+    4px 4px blue, 
+    5px 5px blue, 
+    6px 6px blue;
+	color: black;
+	font-size: 7em;
+	float: middle;
+	text-align: center;
+	border-width: thick;
+	border-style: solid;
+	margin: auto;
+	padding: 10px;
+	font-family: fantasy;
+	background-image: url('https://karrierebibel.de/wp-content/uploads/2016/08/Erfolgszahlen-Nummern-magische-Zahlen.jpg');
+	background-size: cover;
+	
+}
+.head h2
+{
+	position: auto; top: -3px; left: -3px; 
+  text-shadow: 
+    1px 1px blue, 
+    2px 2px blue, 
+    3px 3px blue, 
+    4px 4px darkred, 
+    5px 5px darkred, 
+    6px 6px darkred;
+	font-size: 3em;
+	text-align: center;
+	margin: auto;
+	float: middle;
+	color: white;
+	background-color: black;
+	padding-bottom: 0.3em;
+}
+.menu{
+	font-size: 1.5em;
+	width: 210px;
+	height: 100vh;  
+	border-width: thick;
+	border-style: solid;
+	background-image: url('https://www.waehrungen-weltweit.de/wp-content/uploads/2019/11/Der-Euro-ist-die-W%C3%A4hrung-Europas.jpg');
+	padding-right: 1em;
+	float: left;
+	margin-right: 1em;
+	text-align: center;
+	
+}
+
+.menu ul
+{
+	background-color: grey;
+	width: 194px;
+	text-align: center;
+}
+
+.formular{
+	font-size: 1.2em;
+	float: middle;
+	background-color: grey;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	text-align: justify;
+}
+
+.erg tr {
+	font-size: 1.2em;
+}
+	
+.erg tr b{
+	font-size: 1.5em;
+}
+
+.erg table{
+	background-color: lightgrey;
+	width: 83%;
+	height: 60;
+	float: middle;
+	border-style: thick;
+	border-color: white;
+	margin-top: 1em;
+}
+
+.erg td{
+	height: 30px;
+}
+
+.erg p{
+	font-size:1.5em;
+	float: middle;
+	text-align: center;
+	margin-left: 15em;
+}
+
+.drucken 
+{
+	font-size:1.5em;
+	float: right;
+	text-align: center;
+}
+.drucken button
+{
+	font-size:1em;
+	margin-top: 2em;
+	margin-right: 2em;
+	margin-bottom: 4em;
+}
+

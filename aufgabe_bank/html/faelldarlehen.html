@@ -1,0 +1,64 @@
+<html>
+<meta charset="utf-8">
+<head>
+<title>Fälligkeitsdarlehen</title>
+</head>
+<body>
+<link rel="stylesheet" href="../formate.css"/>
+<div class="wrapper">
+<!--Kopf der Seite-->
+	<div class="head">
+		<h1>SupraBank</h1>
+		<h2><b>Fälligkeitsdarlehen</b></h2>
+	</div>
+	<div class="menu">
+	
+<!--Menu der Seite ( Weitere Einträge folgen )-->
+	<ul>
+		<li><a href="../index.html">Startseite</a></li>
+		<li><a href="anndarlehen.html">Annuitätendarlehen</a></li>
+		<li><a href="tilldarlehen.html">Tillgungsdarlehen</a></li>
+	</ul>
+	</div>
+	
+<!--Formular der Seite-->
+	<div class="formular">
+		<p>Wählen Sie einen Darlehensbetrag mit Zinssatz und wann das Darlehen zurück gezahlt werden soll</p>
+		<form action="faelldarlehen_berechnen_a.php" method="post">
+			<p><input name="betrag" size="10" /> Darlehensbetrag (in &euro;)</p>					<!--Einfaches Eingabefeld -->
+			<p><input name="zin" size="10" /> Zinssatz (in %)</p>									<!--Auswahlfeld-->
+			<p><input type="number" name="zeit" value="1" min="1" max="25" />Fälligkeitsjahr</p>
+			
+			<p><b>Auszahlungsdatum</b></p>
+			<p><select name="monat">
+				<option value="01">Januar</option>
+				<option value="02">Februar</option>
+				<option value="03">März</option>
+				<option value="04">April</option>
+				<option value="05">Mai</option>
+				<option value="06">Juni</option>
+				<option value="07">Juli</option>
+				<option value="08">August</option>
+				<option value="09">September</option>
+				<option value="10">Oktober</option>
+				<option value="11">November</option>
+				<option value="12">Dezember</option>
+			</select>Monat
+			<select name="jahr">
+				<option value="2019">2020</option>
+				<option value="2020">2021</option>
+				<option value="2021">2022</option>
+				<option value="2022">2023</option>
+				<option value="2023">2024</option>
+				<option value="2024">2025</option>
+			</select>Jahr</p>
+			
+			
+			<p><input type="submit" value="Eingabe der Werte"/>
+			<input type="reset"/></p>
+			
+	</div>
+
+</div>
+</body>
+</html>

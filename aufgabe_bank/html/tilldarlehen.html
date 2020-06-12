@@ -1,0 +1,85 @@
+<html>
+<meta charset="utf-8">
+<head>
+<title>Tillgungsdarlehen</title>
+</head>
+<body>
+<div class="wrapper">
+<link rel="stylesheet" href="../formate.css" />
+	<!--Kopf der Seite-->
+	<div class="head">
+	<h1>SupraBank</h1>
+	<h2>Tillgungsdarlehen</h2>
+	</div>
+	
+	<!--Menu der Seite ( Weitere Einträge folgen )-->
+	<div class="menu">
+		<ul>
+			<li><a href="../index.html">Startseite</a></li>
+			<li><a href="anndarlehen.html">Annuitätendarlehen</a></li>
+		</ul>
+	</div>
+		
+	<!--Eingabeformular-->
+	<div class="formular">
+	<p>Tragen Sie ihrer Darlehenhöhe sowie Zinssatz ein und wählen Sie dann zwischen <br/>einer monatlichen Rate oder einen Zeitraum bis wann das Darlehen, plus Zinsen, zurückgezahlt sein soll.</p>
+		<form action="tilldarlehen_berechnen_a.php" method="post">
+			<p><input name="betrag" size="10" /> Darlehensbetrag (in &euro;)</p>					<!--Einfaches Eingabefeld -->
+			<p><input name="zin" size="10" /> Zinssatz (in %)</p>									<!--Auswahlfeld-->
+
+			<p><input type="radio" name="wie" value="mrate" onclick="ratenzahlung();zeitraumAus()"/>Monatliche Rate</p>
+			<p><input type="radio" name="wie" value="zeit" onclick="zeitraum();ratenzahlungAus()" />Zeitraum</p>
+			<div id="rate">
+				<p><input name="mr" />&euro;</p>
+			</div>
+			<div id="zeitr">
+				<p><input name="zr" />in Jahren</p>
+			</div>
+
+			<p><b>Auszahlungsdatum</b></p>
+			<p><select name="monat">
+				<option value="01">Januar</option>
+				<option value="02">Februar</option>
+				<option value="03">März</option>
+				<option value="04">April</option>
+				<option value="05">Mai</option>
+				<option value="06">Juni</option>
+				<option value="07">Juli</option>
+				<option value="08">August</option>
+				<option value="09">September</option>
+				<option value="10">Oktober</option>
+				<option value="11">November</option>
+				<option value="12">Dezember</option>
+			</select>Monat
+			<select name="jahr">
+				<option value="2019">2020</option>
+				<option value="2020">2021</option>
+				<option value="2021">2022</option>
+				<option value="2022">2023</option>
+				<option value="2023">2024</option>
+				<option value="2024">2025</option>
+			</select>Jahr</p>
+			
+			
+			<p><input type="submit" value="Eingabe der Werte"/>
+			<input type="reset"/></p>
+			
+	</div>
+	<script>
+function ratenzahlung(){
+	document.getElementById("rate").style.display = "block";
+}
+function ratenzahlungAus(){
+	document.getElementById("rate").style.display = "none";
+}
+function zeitraum(){
+	document.getElementById("zeitr").style.display = "block";
+}
+function zeitraumAus(){
+	document.getElementById("zeitr").style.display = "none";
+}
+</script>
+</link>
+</div>
+</body>
+</html>
